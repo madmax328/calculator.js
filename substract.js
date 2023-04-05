@@ -1,7 +1,7 @@
 module.exports = function substract(a, b) {
-  if (a > b) {
-    throw new error('Negative result not allowed')
+  const res = a - b
+  if(Number.isNaN(res)) {
+      throw new error('invalisd Operation')
   }
-  
-    return a - b
-  }
+  return res
+}
