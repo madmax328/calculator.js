@@ -1,3 +1,7 @@
-module.exports = function sum(a, b) {
-    return a - b
+module.exports = function multiply(a, b) {
+  const res = a * b
+  if(Number.isNaN(res)) {
+      throw new error('invalisd Operation')
   }
+  return res
+}
