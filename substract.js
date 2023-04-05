@@ -1,6 +1,3 @@
-module.exports = function substract(a, b) {
-  if(a < b) {
-    return 0
-  }
+module.exports = function sum(a, b) {
     return a - b
   }
